@@ -10,7 +10,7 @@ Use following Commands:
 
    ![Screenshot 2023-08-30 181908](https://github.com/pratikshashinde55/agricultural_bot/assets/61465971/c919913b-aa92-448a-97f3-7a61165a0451)
 
-2.create own net name as "psnet"
+#create own net name as "psnet"
         subnet range 10.0.0.1/16 in CIDR format
         
   ![Screenshot 2023-08-30 185447](https://github.com/pratikshashinde55/agricultural_bot/assets/61465971/bc2e8ddd-5f80-42f6-90a4-0f44bc5607be)
@@ -21,8 +21,7 @@ Use following Commands:
 #docker network ls
 
 
-
-3. Create database with own driver (database- container name)...also provide required enviromental variable
+#Create database with own driver (database- container name)...also provide required enviromental variable
 
  ![Screenshot 2023-08-30 185342](https://github.com/pratikshashinde55/agricultural_bot/assets/61465971/2e1f0892-4059-4b02-b876-f91907d4bd7b)
 
