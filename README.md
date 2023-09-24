@@ -30,16 +30,28 @@ Use following Commands:
 
 #docker inspect database   <--- here we show our subnet range(10.0.0.1/16) to our given database container
 
-now  WE Launch wordpress and uase PATTING to make outside world connection 
- we know that port number of container is 80 also check by #netstat -tnlp
+![Screenshot 2023-08-30 185033](https://github.com/pratikshashinde55/agricultural_bot/assets/61465971/0188840f-d021-4d93-b3dc-acb4f5951ddd)
+![Screenshot 2023-08-30 185149](https://github.com/pratikshashinde55/agricultural_bot/assets/61465971/491672f9-612e-4480-9fef-48cfd2c61920)
 
- #docker run -dit --name mywordpress --network psnet -p 1234:80 wordpress
+Here,check provided subnet range.
 
-we can also check our MYWORDPRESS have our subnet range by command
+4.Launch wordpress and uase PATTING to make outside world connection 
+ As port number of container is 80 also check by #netstat -tnlp
+ 
+ ![Screenshot 2023-08-30 185418](https://github.com/pratikshashinde55/agricultural_bot/assets/61465971/67b0ad62-3774-4f05-baf9-d3c8ad45305a)
+
+  
+  #docker run -dit --name mywordpress --network psnet -p 1234:80 wordpress
+
+we can also check MYWORDPRESS has our subnet range by command on above screenshots.( step no.3)
 #docker inspect mywordpress
 
-here very important stape about firewall and security for
-step 1. : EC2 Dashboard 
+5.EC2 intance has Firewall which cannot be connected by outside world, so we can modify inbound rules(All traffic allowed)
+
+![Screenshot 2023-08-30 182129](https://github.com/pratikshashinde55/agricultural_bot/assets/61465971/f5cb4732-1715-4a23-89da-92f825f1ec81)
+
+Substeps
+     1. : EC2 Dashboard 
      2. select securtity option 
      3. go inside Security groups
      4. select "edit inbound rule"
