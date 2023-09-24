@@ -3,10 +3,10 @@ Steps:
 
 1. Launch EC2 instance and install docker inside and start docker Service:
 Use following Commands:
-       sudo su - root               
-        yum install docker -y
-        systemctl enable  docker --now
-        systemctl status docker
+      a. sudo su - root               
+      b. yum install docker -y
+      c. systemctl enable  docker --now
+      d. systemctl status docker
 
    ![Screenshot 2023-08-30 181908](https://github.com/pratikshashinde55/agricultural_bot/assets/61465971/c919913b-aa92-448a-97f3-7a61165a0451)
 
@@ -60,12 +60,18 @@ Substeps
      6. save rule
 
 
-     we use instance public + our port number that provide in wordpress contanierb 
-  http://65.2.146.158:1234  <<---- on google or browser
+6.instance public + our port number that provide in wordpress contanier.
+To access wordpresss from browser,need EC2 instance public IP Address+Port no. given to wordpresss container.
 
-we get wordprss interface on google , we provide details that we provide  in the for of enviromental variable during lauching "database" caintainer 
+  http://65.2.146.158:1234  <<---- on google or browser
+![Screenshot 2023-08-30 182811](https://github.com/pratikshashinde55/Three-Tier-Architecture/assets/61465971/10362dc7-d157-4d81-801e-109dada0e487)
+
+To get wordpress interface on google ,provide details that provided in the form of enviromental variable during "database" caintainer launch
 
 http://65.2.146.158:1234 <<------- show our blog
+
+![Screenshot 2023-08-30 182954](https://github.com/pratikshashinde55/Three-Tier-Architecture/assets/61465971/373ccfce-737e-4d25-adb9-67e718b13eed)
+
 
 
 
