@@ -84,7 +84,7 @@ http://65.2.146.158:1234 <<------- see interface(This site not works as instance
 
 8. On Wordpress Dashboard->create Post->Add Content->Publish->Copy link and paste in the browser.
 
-   ![Screenshot 2023-08-30 183516](https://github.com/pratikshashinde55/Three-Tier-Architecture/assets/61465971/1fcf7a55-6131-4b29-93a0-e4af41897ecf)
+   ![Screenshot 2023-08-30 183516](https://github.com/pratikshashinde55/Three-Tier-Architecture/assets/61465971/1fcf7a55-6131-4b29-93a0-e4af41897ecf).
 
 ![Screenshot 2023-08-30 184349](https://github.com/pratikshashinde55/Three-Tier-Architecture/assets/61465971/81302180-ad3f-4a8a-83c5-12f70395e70e)
 
