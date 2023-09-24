@@ -92,9 +92,9 @@ http://65.2.146.158:1234 <<------- see interface(This site not works as instance
 
 
 This is Three Tier Architecture using Docker
--WordPress-Blogging Site
--MySQL-Database
--PSNet-Own bridge driver.
+#WordPress-Blogging Site
+#MySQL-Database
+#PSNet-Own bridge driver.
 
 
 
