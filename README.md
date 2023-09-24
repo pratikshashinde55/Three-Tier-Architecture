@@ -3,9 +3,9 @@
  #Launch EC2 instance and install docker inside and start docker Service:
    
 Use following Commands:
-      a. sudo su - root               
-      b. yum install docker -y
-      c. systemctl enable  docker --now
+      a. sudo su - root  ,             
+      b. yum install docker -y   ,
+      c. systemctl enable  docker --now   ,
       d. systemctl status docker
 
    ![Screenshot 2023-08-30 181908](https://github.com/pratikshashinde55/agricultural_bot/assets/61465971/c919913b-aa92-448a-97f3-7a61165a0451)
