@@ -1,7 +1,7 @@
-#Docker-
-Steps:
+#Steps:
 
-1. Launch EC2 instance and install docker inside and start docker Service:
+ #Launch EC2 instance and install docker inside and start docker Service:
+   
 Use following Commands:
       a. sudo su - root               
       b. yum install docker -y
@@ -61,6 +61,7 @@ Substeps
 
 
 6.instance public + our port number that provide in wordpress contanier.
+
 To access wordpresss from browser,need EC2 instance public IP Address+Port no. given to wordpresss container.
 
 ![Screenshot 2023-08-30 182811](https://github.com/pratikshashinde55/Three-Tier-Architecture/assets/61465971/10362dc7-d157-4d81-801e-109dada0e487)
