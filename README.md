@@ -63,12 +63,11 @@ Substeps
 6.instance public + our port number that provide in wordpress contanier.
 To access wordpresss from browser,need EC2 instance public IP Address+Port no. given to wordpresss container.
 
-  http://65.2.146.158:1234  <<---- on google or browser
 ![Screenshot 2023-08-30 182811](https://github.com/pratikshashinde55/Three-Tier-Architecture/assets/61465971/10362dc7-d157-4d81-801e-109dada0e487)
 
 To get wordpress interface on google ,provide details that provided in the form of enviromental variable during "database" caintainer launch
 
-http://65.2.146.158:1234 <<------- show our blog(This site not works as instance is terminated now)
+http://65.2.146.158:1234 <<------- see interface(This site not works as instance is terminated now)
 
 ![Screenshot 2023-08-30 182954](https://github.com/pratikshashinde55/Three-Tier-Architecture/assets/61465971/373ccfce-737e-4d25-adb9-67e718b13eed)
 
