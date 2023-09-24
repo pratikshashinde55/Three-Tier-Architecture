@@ -1,4 +1,4 @@
-# agricultural_bot
+#Docker
 Steps:
 
 1. Launch EC2 instance and install docker inside and start docker Service:
