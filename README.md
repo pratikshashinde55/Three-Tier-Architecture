@@ -68,7 +68,7 @@ To access wordpresss from browser,need EC2 instance public IP Address+Port no. g
 
 To get wordpress interface on google ,provide details that provided in the form of enviromental variable during "database" caintainer launch
 
-http://65.2.146.158:1234 <<------- show our blog
+http://65.2.146.158:1234 <<------- show our blog(This site not works as instance is terminated now)
 
 ![Screenshot 2023-08-30 182954](https://github.com/pratikshashinde55/Three-Tier-Architecture/assets/61465971/373ccfce-737e-4d25-adb9-67e718b13eed)
 
@@ -77,8 +77,6 @@ http://65.2.146.158:1234 <<------- show our blog
 7.Create username and password to create blog on wordpress:
 
 ![Screenshot 2023-08-30 183243](https://github.com/pratikshashinde55/Three-Tier-Architecture/assets/61465971/252d4b4d-25b8-42c7-a578-533c799266e7)
-
-![Screenshot 2023-08-30 183401](https://github.com/pratikshashinde55/Three-Tier-Architecture/assets/61465971/1f0c678c-2483-463c-b653-3cf9c489bc65)
 
 ![Screenshot 2023-08-30 183447](https://github.com/pratikshashinde55/Three-Tier-Architecture/assets/61465971/7d416ddc-dc57-4ea2-93f0-fa2f4271e632)
 
