@@ -72,6 +72,32 @@ http://65.2.146.158:1234 <<------- show our blog
 
 ![Screenshot 2023-08-30 182954](https://github.com/pratikshashinde55/Three-Tier-Architecture/assets/61465971/373ccfce-737e-4d25-adb9-67e718b13eed)
 
+![Screenshot 2023-08-30 183151](https://github.com/pratikshashinde55/Three-Tier-Architecture/assets/61465971/274b58bf-662d-471e-b30d-0377d9ac259d)
+
+7.Create username and password to create blog on wordpress:
+
+![Screenshot 2023-08-30 183243](https://github.com/pratikshashinde55/Three-Tier-Architecture/assets/61465971/252d4b4d-25b8-42c7-a578-533c799266e7)
+
+![Screenshot 2023-08-30 183401](https://github.com/pratikshashinde55/Three-Tier-Architecture/assets/61465971/1f0c678c-2483-463c-b653-3cf9c489bc65)
+
+![Screenshot 2023-08-30 183447](https://github.com/pratikshashinde55/Three-Tier-Architecture/assets/61465971/7d416ddc-dc57-4ea2-93f0-fa2f4271e632)
+
+
+8. On Wordpress Dashboard->create Post->Add Content->Publish->Copy link and paste in the browser.
+
+   ![Screenshot 2023-08-30 183516](https://github.com/pratikshashinde55/Three-Tier-Architecture/assets/61465971/1fcf7a55-6131-4b29-93a0-e4af41897ecf)
+
+![Screenshot 2023-08-30 184349](https://github.com/pratikshashinde55/Three-Tier-Architecture/assets/61465971/81302180-ad3f-4a8a-83c5-12f70395e70e)
+
+![Screenshot 2023-08-30 184434](https://github.com/pratikshashinde55/Three-Tier-Architecture/assets/61465971/f112c827-0bdd-4f42-970c-1aac3e2555ac)
+
+
+This is Three Tier Architecture using Docker
+-WordPress-Blogging Site
+-MySQL-Database
+-PSNet-Own bridge driver.
+
+
 
 
 
